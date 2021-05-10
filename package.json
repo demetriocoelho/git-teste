@@ -1,21 +1,24 @@
 {
   "name": "git-teste",
   "version": "1.0.0",
-  "description": " git commit -m “Primeira versão”",
-  "main": "(git push -u origin master ",
+  "description": "Meu primeiro app NodeJs",
+  "main": "index.html",
   "scripts": {
     "start": "npm run lite",
-    "test" : "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demetriocoelho/git-teste.git"
+    "url": "git+https://github.com/TCC-AGRO/aula-2.git"
   },
-  "author": "",
+  "author": "leonardo luiz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/demetriocoelho/git-teste/issues"
+    "url": "https://github.com/TCC-AGRO/aula-2/issues"
   },
-  "homepage": "https://github.com/demetriocoelho/git-teste#readme"
+  "homepage": "https://github.com/TCC-AGRO/aula-2#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
